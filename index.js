@@ -15,6 +15,7 @@ function exported(){
     'humidity': hal.humidity(),
     'pressure': hal.pressure(),
     'uv':       hal.uv(),
+    'soft_i2c_nan': hal.soft_i2c_nan(),
     'info':     hal.info
   }
 

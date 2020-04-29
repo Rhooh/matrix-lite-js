@@ -12,7 +12,7 @@
       },
       "target_name": "addon",
       # Each index exposes all files inside path
-      "sources": ["<!@(ls -1 hal_wrapper/*.cpp)", "<!@(ls -1 hal_wrapper/drivers/*.cpp)", "<!@(ls -1 hal_wrapper/drivers/sensors/*.cpp)"]
+      "sources": ["<!@(ls -1 hal_wrapper/*.cpp)", "<!@(ls -1 hal_wrapper/soft_i2c/*.cpp)", "<!@(ls -1 hal_wrapper/drivers/*.cpp)", "<!@(ls -1 hal_wrapper/drivers/sensors/*.cpp)"]
     }
   ]
 }
