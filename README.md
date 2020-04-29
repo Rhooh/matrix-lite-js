@@ -11,6 +11,7 @@ MATRIX Lite JS is an [npm package](https://www.npmjs.com/package/@matrix-io/matr
   - [x] Pressure
   - [x] UV
 - [x] GPIO
+  - [ ] softI2C
 - [x] Device Info
 - [ ] Microphones
   - [ ] Hal Mics
@@ -85,7 +86,7 @@ setInterval(function(){
   uv = matrix.uv.read();
   humidity = matrix.humidity.read();
   pressure = matrix.pressure.read();
-  
+
   console.log(imu, uv, humidity, pressure);
 },50);
 ```
